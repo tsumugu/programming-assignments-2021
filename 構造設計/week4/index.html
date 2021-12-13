@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>speech API</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/60bacffb5e.js" crossorigin="anonymous"></script>
+  <!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body class="container">
+  <div class="inner">
+    <div class="header">
+      <h1>同時通訳</h1>
+      <!-- 謎の空白が気になる。もしかしたらopacity0にして解決できるかも -->
+      <div class="selector-wrapper"><select id="source-selector"></select>→<select id="target-selector"></select></div>
+      <div class="startbutton-wrapper"><button id="startButton"><i class="fas fa-microphone-slash"></i></button></div>
+    </div>
+    <ul id="translateLog"></ul>
+  </div>
+  <script src="js/myScript.js"></script>
+</body>
+
+</html>

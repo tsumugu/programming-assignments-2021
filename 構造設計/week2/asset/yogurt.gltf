@@ -1,0 +1,157 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                3.623680830001831,
+                5.911097526550293,
+                -0.9184342622756958
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                6.906327247619629,
+                4.965544700622559,
+                7.012810230255127
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "yo-guruto",
+            "scale" : [
+                10,
+                10,
+                10
+            ],
+            "translation" : [
+                -0.5025644898414612,
+                0.00723565649241209,
+                0.09701967239379883
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "name" : "SVGMat.010",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9114075899124146,
+                    1,
+                    1,
+                    0.5018405318260193
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Curve.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 10570,
+            "max" : [
+                0.09688610583543777,
+                0.004956951830536127,
+                -0.00042237251182086766
+            ],
+            "min" : [
+                0.0004361644387245178,
+                0,
+                -0.019303135573863983
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 10570,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 10570,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 19644,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 126840,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 126840,
+            "byteOffset" : 126840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84560,
+            "byteOffset" : 253680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39288,
+            "byteOffset" : 338240
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 377528,
+            "uri" : "yogurt.bin"
+        }
+    ]
+}

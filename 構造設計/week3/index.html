@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>face tracker</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?6078df761bbc4cccbbc73aaae90393a3" charset="utf-8"></script>
+    <script src="/js/clmtrackr.js"></script>
+    <script src="/models/model_pca_20_svm.js"></script>
+    <!-- 表情認識してみる -->
+    <script src="/js/emotion_classifier.js"></script>
+    <script src="/models/emotionModel.js"></script>
+  </head>
+  <body>
+    <div id="result-wrapper">
+      <p id="result-title">結果</p>
+      <p id="result-futatsuna"></p>
+      <p id="result-description"></p>
+      <button id="result-okbutton">OK</button>
+    </div>
+    <div id="time-phase-info-wrapper">
+      <div id="time-phase-info-inner"><p id="phase">0</p>/3 ラウンド目 残り <p id="sec">0</p> 秒</div>
+    </div>
+    <div id="message-wrapper">
+      <div id="message">スタート</div>
+    </div>
+    <div id="container">
+      <video id="video"></video>
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src="/js/SmileJudger.js"></script>
+    <script src="/js/PhaseManager.js"></script>
+    <script src="/js/DialogManager.js"></script>
+    <script src="/js/ResultWindowManager.js"></script>
+    <script src="/js/DrawManager.js"></script>
+    <script src="/js/myScript.js"></script>
+  </body>
+</html>
